@@ -53,7 +53,7 @@
             <label for="file">Upload Photo</label>
             <input type="file" name="file" id="fileToUpload">
             <br>
-            <button type="submit" class="btn btn-primary">Edits Post</button>
+            <button type="submit" class="btn btn-primary">Edit Post</button>
 
         </form>
         <br>

@@ -37,7 +37,7 @@
         <th scope="row"> {{$no}} </th>
           <td> <img height ='40px' width = '60px' src="/images/{{$post->photo?$post->photo->file:'userplaceholder.jpeg'}}" alt=""> </td>
         <td>{{$post->user->name}}</td>
-        <td>{{$post->category->name}}</td>
+        <td>{{$post->category->name?$post->category->name:'uncategorized'}}</td>
         <td><a href="{{route('posts.edit', $post->id)}}">{{ $post->title}}</a>  </td>
         <td>{{ $post->body }}</td>
         <td> <a class="btn btn-primary" href=" {{'/admin/posts/'.$post->id.'/edit/'}}">Edit</a></td>
