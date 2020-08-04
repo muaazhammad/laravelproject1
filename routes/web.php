@@ -22,6 +22,7 @@ Route::get('/admin', function () {
 
 
 Route::resource('admin/users','AdminUsersController')->middleware('isadmin');
+Route::resource('admin/posts','AdminPostsController')->middleware('isadmin');
 
 Auth::routes();
 

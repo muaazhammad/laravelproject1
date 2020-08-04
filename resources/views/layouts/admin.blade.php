@@ -126,7 +126,6 @@
                             <li>
                                 <a href="/admin/posts">All Posts</a>
                             </li>
-
                             <li>
                                 <a href="/admin/posts/create">Create Post</a>
                             </li>
@@ -176,7 +175,7 @@
 
 
 
-                
+
 
 
 
